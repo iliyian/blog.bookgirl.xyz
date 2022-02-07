@@ -1405,7 +1405,7 @@ escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
 
-esprima@^4.0.0:
+esprima@^4.0.0, esprima@^4.0.1:
   version "4.0.1"
   resolved "https://registry.npmjs.org/esprima/-/esprima-4.0.1.tgz"
 
@@ -2390,9 +2390,9 @@ hexo-wordcount@^6.0.1:
   version "6.0.1"
   resolved "https://registry.npmjs.org/hexo-wordcount/-/hexo-wordcount-6.0.1.tgz"
 
-hexo@^5.0.0:
-  version "5.4.0"
-  resolved "https://registry.npmjs.org/hexo/-/hexo-5.4.0.tgz"
+hexo@^5.4.1:
+  version "5.4.1"
+  resolved "https://registry.yarnpkg.com/hexo/-/hexo-5.4.1.tgz#a552bf7a25af7d4d7535839bcf3e7f1ff03c4593"
   dependencies:
     abbrev "^1.1.1"
     archy "^1.0.0"
@@ -2405,6 +2405,7 @@ hexo@^5.0.0:
     hexo-log "^2.0.0"
     hexo-util "^2.4.0"
     js-yaml "^4.0.0"
+    js-yaml-js-types "^1.0.0"
     micromatch "^4.0.2"
     moment "^2.22.2"
     moment-timezone "^0.5.21"
@@ -2632,12 +2633,6 @@ is-buffer@^1.1.5:
 is-callable@^1.1.4, is-callable@^1.2.4:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/is-callable/-/is-callable-1.2.4.tgz#47301d58dd0259407865547853df6d61fe471945"
-
-is-core-module@^2.2.0:
-  version "2.4.0"
-  resolved "https://registry.npmjs.org/is-core-module/-/is-core-module-2.4.0.tgz"
-  dependencies:
-    has "^1.0.3"
 
 is-core-module@^2.8.1:
   version "2.8.1"
@@ -2936,6 +2931,12 @@ jake@^10.6.1:
 js-stringify@^1.0.1, js-stringify@^1.0.2:
   version "1.0.2"
   resolved "https://registry.npmjs.org/js-stringify/-/js-stringify-1.0.2.tgz"
+
+js-yaml-js-types@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/js-yaml-js-types/-/js-yaml-js-types-1.0.0.tgz#bf17cb75c7587c698294d15bbfa5f9b8b10b874b"
+  dependencies:
+    esprima "^4.0.1"
 
 js-yaml@^3.13.1:
   version "3.14.1"
@@ -3795,7 +3796,7 @@ path-key@^3.0.0, path-key@^3.1.0:
   version "3.1.1"
   resolved "https://registry.npmjs.org/path-key/-/path-key-3.1.1.tgz"
 
-path-parse@^1.0.6, path-parse@^1.0.7:
+path-parse@^1.0.7:
   version "1.0.7"
   resolved "https://registry.npmjs.org/path-parse/-/path-parse-1.0.7.tgz"
 
@@ -4288,14 +4289,7 @@ resolve-url@^0.2.1:
   version "0.2.1"
   resolved "https://registry.npmjs.org/resolve-url/-/resolve-url-0.2.1.tgz"
 
-resolve@^1.1.6, resolve@^1.1.7, resolve@^1.10.0, resolve@^1.11.0, resolve@^1.4.0, resolve@^1.8.1:
-  version "1.20.0"
-  resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.20.0.tgz#629a013fb3f70755d6f0b7935cc1c2c5378b1975"
-  dependencies:
-    is-core-module "^2.2.0"
-    path-parse "^1.0.6"
-
-resolve@^1.15.1:
+resolve@^1.1.6, resolve@^1.1.7, resolve@^1.10.0, resolve@^1.11.0, resolve@^1.15.1, resolve@^1.4.0, resolve@^1.8.1:
   version "1.22.0"
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.22.0.tgz#5e0b8c67c15df57a89bdbabe603a002f21731198"
   dependencies:
